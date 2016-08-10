@@ -1,0 +1,29 @@
+html, body {
+	height:100%;}
+
+.parallax{
+	background-image: url('../img/billGates.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+	height: 100%;}
+
+.p1{}
+.p2{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);}
+.p3{
+	-webkit-filter: invert(100%);
+	filter: invert(100%);}
+.p4{
+	-webkit-filter: saturate(8);
+	filter: saturate(8);}
+
+.content{
+	background-color: lightgreen;
+	height: 700px;
+	p{
+		font-size:60px;
+		color: white;
+		font-weight: bold;}}

@@ -1,0 +1,26 @@
+html, body {
+	height:100%;}
+
+.parallax{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+	height: 100%;}
+
+.p1{
+	background-image: url('../img/billGates.jpg');}
+.p2{
+	background-image: url('../img/elonMusk.jpg');}
+.p3{
+	background-image: url('../img/portfolio3.jpg');}
+.p4{
+	background-image: url('../img/billGates.jpg');}
+
+.content{
+	background-color: lightgreen;
+	height: 700px;
+	p{
+		font-size:60px;
+		color: white;
+		font-weight: bold;}}
